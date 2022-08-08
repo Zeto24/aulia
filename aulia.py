@@ -45,9 +45,10 @@ def main():
     elif pilih == "4":
         import update
     elif pilih == "00":
-        print("PROGRAM TELAH BERHENTI")
-        sleep(0.1)
-        os.exit(1)
+        print("\nPROGRAM TELAH BERHENTI")
+        sleep(1)
+        os.system("clear")
+        sys.exit(1)
     else:
         print("\nMOHON MASUKAN INPUT ANDA!")
         sleep(0.5)
