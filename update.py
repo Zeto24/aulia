@@ -7,7 +7,7 @@ def update():
     os.system("clear")
     print("\n","-"*32)
     print(" UPDATE/REINSTALL TOOLS BERHASIL!")
-    time.sleep(2)
+    time.sleep(30)
     os.system("cd aulia")
     os.system("python aulia.py")
     
