@@ -44,7 +44,7 @@ def main():
         import list
     elif pilih == "4":
         import update
-    elif pilih == "00":
+    elif pilih == "0":
         print("\nPROGRAM TELAH BERHENTI")
         sleep(1)
         os.system("clear")
