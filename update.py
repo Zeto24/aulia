@@ -5,7 +5,7 @@ for i in range(10):
     sys.stdout.write('•')
     sys.stdout.flush()
     time.sleep(1)
-os.system("rm -rf toolus")
+os.system("rm -rf aulia")
 os.system("git clone https://github.com/Zeto24/aulia.git")
 os.system("clear")
 os.system("clear")
