@@ -56,12 +56,13 @@ def tujuan():
     DENGAN ALAT SESERHANA INI, SAYA BELAJAR SECARA OTODIDAK,
     DENGAN SEGALA KEKURANGAN SAYA, SAYA MEMBUAT INI PERLAHAN
     DAN MENGULANG SEGALA PENGETAHUAN MATERI DARI AWAL.
-    DEMI BISA MENDUKUNG BELAJAR AULIA.'''
+    DEMI BISA MENDUKUNG BELAJAR AULIA.\n'''
     for char in greet2:
         time.sleep(0.045)
         sys.stdout.write(char)
         sys.stdout.flush()
-
+    time.sleep(1)
+    import aulia
 greetings()
 print("\n")
 time.sleep(1)

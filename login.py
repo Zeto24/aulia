@@ -1,9 +1,10 @@
 import os
 import sys
 import string
+import time
 from time import sleep
-scriptpath = "../storage/emulated/0/aulia/login.py"
-sys.path.append(os.path.abspath(scriptpath))
+#scriptpath = "../storage/emulated/0/aulia/login.py"
+#sys.path.append(os.path.abspath(scriptpath))
 def login():
     os.system("clear")
     word = '''\033[2;31;40m
@@ -33,6 +34,9 @@ def login():
     if lanjut == "Y":
         print("\nSELAMAT DATANG","\033[2;31;40m",nama1,"\033[0;0m")
         print("SELAMAT BELAJAR :)")
+        time.sleep(2)
+        os.system("clear")
+        import menu
     elif lanjut == "R":
        import login
     else:

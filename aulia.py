@@ -1,12 +1,12 @@
 import os
 import sys
 from time import sleep
-scriptpath = "../storage/emulated/0/aulia/login.py"
-sys.path.append(os.path.abspath(scriptpath))
-scriptpath = "../storage/emulated/0/aulia/greetings.py"
-sys.path.append(os.path.abspath(scriptpath))
-scriptpath = "../storage/emulated/0/aulia/list.py"
-sys.path.append(os.path.abspath(scriptpath))
+#scriptpath = "../storage/emulated/0/aulia/login.py"
+#sys.path.append(os.path.abspath(scriptpath))
+#scriptpath = "../storage/emulated/0/aulia/greetings.py"
+#sys.path.append(os.path.abspath(scriptpath))
+#scriptpath = "../storage/emulated/0/aulia/list.py"
+#sys.path.append(os.path.abspath(scriptpath))
 def logo():
     os.system("clear")
     words = ''' \033[2;31;40m
