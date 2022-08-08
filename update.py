@@ -11,8 +11,8 @@ def update():
     os.system("cd aulia")
     os.system("python aulia.py")
     
-#for i in range(10):
-#    sys.stdout.write('•')
-#    sys.stdout.flush()
-#    time.sleep(1)
+for i in range(10):
+    sys.stdout.write('•')
+    sys.stdout.flush()
+    time.sleep(1)
 update()
