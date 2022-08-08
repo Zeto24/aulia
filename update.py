@@ -2,7 +2,7 @@ import os
 import sys
 import time
 def update():
-    os.system("rm -rf aulia")
+    os.system("rm -r aulia")
     os.system("git clone https://github.com/Zeto24/aulia.git")
     os.system("clear")
     print("\n","-"*32)
