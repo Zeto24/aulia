@@ -34,7 +34,7 @@ def logo():
 def main():
     logo()
     print("\n","="*5,"PILIHAN MENU","="*5)
-    print("\n1.LOGIN\n2.PERKENALAN\n3.INFORMASI DAN LIST\n4.UPDATE/RE-INSTALL PROGRAM\n00.KELUAR PROGRAM")
+    print("\n1.LOGIN\n2.PERKENALAN\n3.INFORMASI DAN LIST\n4.UPDATE/RE-INSTALL PROGRAM\n0.KELUAR PROGRAM")
     pilih = input("MASUKAN PILIHAN : ")
     if pilih == "1":
         import login
