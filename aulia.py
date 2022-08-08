@@ -34,7 +34,7 @@ def logo():
 def main():
     logo()
     print("\n","="*5,"PILIHAN MENU","="*5)
-    print("\n1.LOGIN\n2.PERKENALAN\n3.INFORMASI DAN LIST\n4.UPDATE/RE-INSTALL PROGRAM\n0.KELUAR PROGRAM")
+    print("\n1.LOGIN\n2.PERKENALAN\n3.INFORMASI DAN LIST\n0.KELUAR PROGRAM")
     pilih = input("MASUKAN PILIHAN : ")
     if pilih == "1":
         import login
@@ -42,8 +42,8 @@ def main():
         import greetings
     elif pilih == "3":
         import list
-    elif pilih == "4":
-        import update
+    #elif pilih == "4":
+        #import update
     elif pilih == "0":
         print("\nPROGRAM TELAH BERHENTI")
         sleep(1)
